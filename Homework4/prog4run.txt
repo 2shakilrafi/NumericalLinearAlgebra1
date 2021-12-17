@@ -1,0 +1,39 @@
+
+I =
+
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1
+
+If houseqr is working, this should be close to macheps:
+
+relnormchange =
+
+   -1.9689
+
+ 
+{Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('houseqtact', 'C:\Users\sarafi\MATLAB Drive\NumericalLinearAlgebra\Prog4\houseqtact.m', 6)" style="font-weight:bold">houseqtact</a> (<a href="matlab: opentoline('C:\Users\sarafi\MATLAB Drive\NumericalLinearAlgebra\Prog4\houseqtact.m',6,0)">line 6</a>)
+        c = hholder(vertcat(u1(j),Qu(:,j))).*c;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NLAProg4Test', 'C:\Users\sarafi\MATLAB Drive\NumericalLinearAlgebra\Prog4\NLAProg4Test.m', 25)" style="font-weight:bold">NLAProg4Test</a> (<a href="matlab: opentoline('C:\Users\sarafi\MATLAB Drive\NumericalLinearAlgebra\Prog4\NLAProg4Test.m',25,0)">line 25</a>)
+bhat = houseqtact(A,u1,b);
+} 
